@@ -1,0 +1,13 @@
+.red{
+    background-color: red; 
+}
+.bg-yellow{
+    background-color: green;
+}
+#first{
+    color: white;
+}
+#second{
+    color: white;
+    background-color: black;
+}
