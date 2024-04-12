@@ -32,6 +32,37 @@
             background-color: black;
             color: white;
         }
+
+        /* Universal Selector  */
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        /* Pseudo Selector  */
+        /* after visited change color */
+        a:visited{
+            color: palevioletred;
+        }
+
+
+        /* change link color before visisted */
+        a:link{
+            color: green;
+        }
+
+        /* when cliked then change color  */
+        a:active{
+            background-color: blue;
+        }
+
+        /* when place cursor on the link  */
+        a:hover{
+            background-color: tomato;
+            padding: 10px;
+            margin: 10px;
+        }
+        
     </style>
 </head>
 <body>
@@ -53,6 +84,11 @@
         </span>
     </div>
 
+
+  
+        <a href="https://google.com">Go to Google </a><br>
+        <a href="https://facebook.com">Facebook </a>
+  
 
 </body>
 </html>
