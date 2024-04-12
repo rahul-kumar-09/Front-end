@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector </title>
+    <style>
+
+        /* Element Selector */
+        div{
+            background-color: rebeccapurple;
+        }
+
+        /* Class selector */
+        .red{
+            background-color: red;
+        }
+
+
+        /* Id Selector  */
+        #green{
+            background-color: green;
+        }
+
+        /* Child Selector  */
+        div > p{
+            background-color: yellow;
+        }
+
+        /* Descendant Selector  */
+        div p{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h2>Selector</h2>
+
+    <div>This is Element Selector </div>
+
+    <div class="red">This is Class Selector</div>
+
+    <div id="green"> This is Id Selector </div>
+
+    <div>
+        <p>This is paragraph inside Div </p>
+    </div>
+
+    <div>
+        <span>
+            <p>This is inside in div in span in Paragraph </p>
+        </span>
+    </div>
+
+
+</body>
+</html>
