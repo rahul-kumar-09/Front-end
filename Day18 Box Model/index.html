@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            background-color: aqua;
+        }
+
+        .box2 {
+            color: red;
+            padding: 10px;
+            margin: 10px;
+            border: 5px solid rgb(0, 0, 0);
+            height: 100px;
+            /* include border and padding  */
+            box-sizing: border-box; 
+        }
+
+        /* when two marign overlap each other than use marign collapse */
+        
+        .box1 {
+            color: rgb(113, 128, 0);
+            padding: 10px;
+            margin: 10px;
+            border: 5px solid red;
+            height: 100px;
+            /* include border and padding  */
+            box-sizing: border-box; 
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <div class="box box1">
+        This is First Box
+    </div>
+
+    <div class="box2 box">
+        This is Second Box
+    </div>
+</body>
+
+</html>
