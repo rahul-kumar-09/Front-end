@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+        /* The Specificity of this selector is 1 + 10 = 11 */
+        h2.cyellow {
+            background-color: rgb(255, 0, 187);
+        }
+
+        /* The Specificity of this selector is 1 */
+        h2 {
+            color: pink;
+        }
+
+        /* The Specificity of this selector is 10 */
+        .yellow {
+            color: yellowgreen;
+        }
+
+        /* The Specificity of this selector is 10 */
+        .cpurple {
+            color: purple;
+        }
+
+        /* The Specificity of this selector is 10 */
+        .cred {
+            color: red;
+        }
+
+
+        /* The Specificity of this selector is 10 */
+        [data-x=a] {
+            background-color: aqua;
+            padding: 10px;
+            border-radius: 10%;
+        }
+
+        /* The Specificity of this selector is 1 + 10 + 10 + 10 + 10 = 41 */
+        a.harryclass.rohan-class[href]:hover{
+            color: violet;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- high priorty selector  -->
+    <!-- Inline Style > ID selector > Class or Attribute > Element selector > Universal selector  -->
+    <h2 class="yellow cred cpurple" data-x="a">This is Specificity</h2>
+    <h2 class="cyellow cpurple" data-x="a">This is Specificity</h2>
+    <h2 style="color: orange">This is Specificity</h2>
+
+
+</body>
+
+</html>
