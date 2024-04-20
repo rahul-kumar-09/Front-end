@@ -1,0 +1,4 @@
+div p:nth-child(2){
+    color: rebeccapurple;
+    font-size: 33px;
+}
