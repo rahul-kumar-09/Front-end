@@ -1,0 +1,31 @@
+
+:root{
+    --color: #fff;
+    --defP: 10px;
+    --defMar: 20px;
+}
+
+.container{
+    background-color: rgb(37, 146, 79);
+    color: var(--color);
+    margin-top: var(--defMar);
+    padding: var(--defP);
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li{
+    color: var(--color);
+    padding: 10px;
+    background-color: green;
+}
+
+.bottomnav{
+    background-color: green;
+    margin-top: var(--defMar);
+    color: var(--color);
+    padding: var(--defP);
+}
