@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            background-color: red;
+            display: flex;
+        }
+
+        @media screen and (orientation: portrait) {
+            body{
+                background-color: purple;
+            }
+        }
+
+        @media screen and (max-width: 800px) {
+            .container {
+                background-color: blue;
+            }
+            .container{
+                flex-direction: column;
+            }
+        }
+
+
+
+        
+
+
+        .box{
+            width: 344px;
+            height: 344px;
+            margin: 10px;
+            padding: 10px;
+            font-size: 44px;
+            color: white;
+            border: 5px solid white;
+            text-align: center;
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="box">BOX1</div>
+        <div class="box">BOX2</div>
+        <div class="box">BOX3</div>
+        <div class="box">BOX4</div>
+        <div class="box">BOX5</div>
+
+    </div>
+
+</body>
+
+</html>
