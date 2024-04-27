@@ -1,0 +1,18 @@
+img {
+    float: left;
+}
+
+.card {
+    border: 5px solid purple;
+    overflow: auto;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+.card:nth-child(3) {
+    clear: left;
+    background-color: tomato;
+    color: white;
+    font-weight: bold;
+    padding: 5px 12px;
+}
