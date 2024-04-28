@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: rebeccapurple; */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --primary-color: rgb(46, 146, 234);
+    --primary-bg: #8ec9f3;
+
+    --secondary-color: rgb(179, 0, 158);
+    --secondary-bg: #ffb4fe;
+
+    --font-color: white;
+}
+
+body {
+    background-color: var(--primary-bg);
+    box-sizing: border-box;
+}
+
+ul li {
+    list-style: none;
+    padding: 12px 8px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal
+}
+
+ul {
+    display: flex;
+}
+
+nav {
+    background-color: var(--primary-color);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: olive;
+}
+
+.left {
+    border: 2px solid black;
+    width: 40vw;
+    height: 90vh;
+    background-color: orange;
+}
+
+.right {
+    border: 2px solid black;
+    width: 40vw;
+    height: 90vh;
+    background-color: tomato;
+}
+
+.layout {
+    background-color: pink;
+    padding: 10px;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+.bottombox {
+    display: flex;
+    justify-content: center;
+}
+
+.bottomhead {
+    height: 30vh;
+    width: 90vw;
+    margin: 20px 0px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+footer {
+    background-color: black;
+}
+
+.footerbox {
+    height: 10vh;
+    width: 100vw;
+    border: 1px solid black;
+}
+
+.btn {
+    border: 1px solid black;
+    height: 20px;
+    width: 20px;
+    background-color: blue;
+    position: sticky;
+    top: 50vh;
+    left: 100vh;
+}
